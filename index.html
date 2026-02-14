@@ -55,22 +55,6 @@
             animation: float 10s infinite linear;
         }
 
-        @keyframes float {
-            0% {
-                transform: translateY(100vh) scale(0);
-                opacity: 0;
-            }
-
-            50% {
-                opacity: 0.8;
-            }
-
-            100% {
-                transform: translateY(-10vh) scale(1);
-                opacity: 0;
-            }
-        }
-
         /* Container Styles */
         .container {
             background: var(--glass-bg);
@@ -236,7 +220,8 @@
         <h1>Hey Handsome... ✨</h1>
         <p>I have something special to show you.</p>
         <button class="btn" onclick="nextScreen('screen-gallery')">Start Journey ❤️</button>
-  
+    </div>
+    
     <!-- Screen 2: Letter -->
     <div class="container" id="screen-letter">
         <h1>For You... 💌</h1>
@@ -440,4 +425,5 @@
 
 
 </html>
+
 
